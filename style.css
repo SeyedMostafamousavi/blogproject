@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "vazir";
+    src: 
+    url("font/Vazir.woff") format("woff"),
+    url("font/Vazir.woff2") format("woff2"),
+    url("font/Vazir.ttf");
+    }
+    
+body{
+    background-color:#fff;
+    font-family: "vazir";
+    direction: rtl;
+}
+h1{
+    color: brown;
+    font-size: 35px;
+}
+
+h2{
+    color: rgb(105, 173, 2);
+    font-size: 30px;   
+}
+.blog1{
+    background-color: #f9f9f9;
+    padding: 2em;
+    overflow: auto;
+    position: absolute;
+    line-height: 1.9;
+    top: 9.9%;
+    left: 18%;
+}
+.blog1 a{
+    text-decoration: none;
+
+}
+
+.blog1 img{
+    float: left;
+    margin-right: .5em;
+}
+
+p{
+    margin: 20px auto;
+    max-width: 800px;
+    font-size: 17px;
+}
+
+.navbar{
+    background-color: #2A7D8F;
+    font-size: 18px;
+}
+
+.navbar-list{
+    position: relative;
+    max-width: 740px;
+    right: 40%;
+    display: flex;
+    list-style: none;
+    height:3.5em ;
+    align-items: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar li{
+    margin: 0 8px;
+}
